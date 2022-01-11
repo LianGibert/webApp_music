@@ -1,0 +1,204 @@
+*{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+#contimatge {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+#cor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    background-image: url(/IMG/corazon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 30%;
+    width: 100vw;
+    height: 15vh;
+}
+
+#img1 {
+    height: 75vh;
+    opacity:50%;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  
+    position: absolute;
+   
+}
+
+
+#nom {
+    height:69vh; 
+    font-family: 'Aclonica', sans-serif;
+    color: white;
+    font-size: 35px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+#descr {
+    height: 20vh; 
+    font-family: fantasy, 
+    color: white; 
+}
+
+#logo {
+    
+    height: 6vh;
+   margin-top: 7%;  
+    margin-left: 86%;
+}
+
+#pantalla {
+    background-color: #171e2e;
+     z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    background-size: cover;
+}
+
+#portada {
+     z-index: 3;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #171e2e;
+    background-size: cover;
+}
+
+#video {
+    height: 50vh;
+    display: flex;
+}
+
+
+#so {
+    height: 6vh;
+    padding: 2%;
+    opacity: 0.5;
+    margin-top: 100%;
+    position: absolute;
+    
+}
+
+
+#creupantalla {
+    height: 8vh;
+}
+
+#corpantalla {
+    height: 6.9vh;
+}
+
+#barra {
+    display: flex;
+    width: 100vw;
+    position: absolute;
+    justify-content: space-around;
+/*    margin: 0 2vw;*/
+    bottom: 0;
+    padding: 9px;
+    
+}
+
+#text {
+     height: 5vh; 
+  font-family: 'Inconsolata', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+
+#text3 {
+     height: 9vh; 
+   font-family: 'Inconsolata', sans-serif;
+    color: white;
+      font-size: 20px;
+}
+
+#text2 {
+     height: 5vh; 
+font-family: 'Inconsolata', sans-serif;
+    color: white;
+      font-size: 20px;
+}
+
+#explic {
+
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    margin-top: 90%;
+    padding: 10%;  
+}
+
+#pare {
+    display: flex;
+     justify-content: space-between;
+}
+
+#titol {
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#info {
+    height: 5vh;
+    margin-top: 7%;  
+    position: absolute;
+    margin-left: 5%;
+    opacity: 50%;
+  
+}
+
+#inforomacio {
+     background-color: #171e2e;
+     z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    background-size: cover;
+}
+
+#video1 {
+    width: 90vw;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity:0;
+    transition-duration: 3s, 5s, 2s, 1s;
+ 
+ 
+
+    
+}
